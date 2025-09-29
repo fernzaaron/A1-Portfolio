@@ -1,0 +1,32 @@
+/* Mobile CSS */
+body {
+  font-size: 14px;
+  padding: 0 10px;
+  background: #f9f9f9;
+}
+
+header h1 {
+  font-size: 20px;
+}
+
+nav ul li {
+  display: block;
+  margin: 8px 0;
+}
+
+form {
+  width: 100%;
+}
+
+/* Mobile: 481px and below */
+@media (max-width: 481px) {
+  body {
+    font-size: 14px;
+  }
+  nav ul li {
+    display: block;
+    margin: 8px 0;
+  }
+}
+
+

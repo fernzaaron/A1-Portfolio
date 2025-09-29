@@ -1,0 +1,137 @@
+/* Remove default spacing from everything */
+/* This makes all elements start with no margin or padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.aboutmetitle {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.videotitle {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+
+
+/* Basic page setup */
+/* This is what my whole page looks like */
+body {
+  font-family: Arial, sans-serif; /* I picked Arial because it's easy to read */
+  line-height: 1.6; /* Makes text not too squished together */
+  background: #f9f9f9; /* light gray background so it's not boring white */
+  color: #333333; /* dark gray text so it's easy to read */
+}
+
+/* Make images look good */
+img {
+  max-width: 100%; /* Images won't be too big for their container */
+  height: auto; /* Keeps images from looking stretched */
+}
+
+/* Top of my page - the header */
+/* This is where my name and menu go */
+header {
+  background: linear-gradient(90deg, #3498db, #9b59b6); /* cool blue to purple fade */
+  color: #ffffff; /* white text so you can see it on the colored background */
+  padding: 20px; /* some space around the text so it's not cramped */
+  text-align: center; /* put everything in the middle */
+}
+
+/* My navigation menu */
+nav ul {
+  list-style: none; /* Get rid of the bullet points */
+  padding: 0; /* No extra space */
+  margin-top: 10px; /* Little bit of space from the header text */
+}
+
+/* My main title */
+h1 {
+    float: center; /* Put my name in the center */
+}
+
+/* Menu items */
+nav ul li {
+  display: inline-block; /* Make menu items go sideways instead of up and down */
+  margin: 0 10px; /* Some space between each menu button */
+}
+
+/* Menu links */
+nav ul li a {
+  color: #ffffff; /* White text so you can see it */
+  text-decoration: none; /* No underlines on my links */
+  font-weight: bold; /* Make the text thick so it stands out */
+}
+
+/* The main part of my page */
+/* This is where all my content goes */
+main {
+  padding: 20px; /* Some space around everything */
+  max-width: 1000px; /* Don't make it too wide or it's hard to read */
+  margin: auto; /* Put it in the middle of the page */
+}
+
+/* Pictures in my main content */
+main img {
+  max-width: 100%; /* Don't let pictures get too big */
+  height: auto; /* Keep pictures looking normal */
+  border-radius: 8px; /* Make corners a little round because it looks nice */
+}
+
+/* Sections of my content */
+/* These make little boxes for each part of my page */
+article, section {
+  margin-bottom: 25px; /* Space between each box */
+  background: #ffffff; /* white background so each section looks like a card */
+  padding: 15px; /* Space inside each box */
+  border-radius: 8px; /* Round corners because they look better */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Little shadow to make boxes look raised */
+}
+
+/* My contact form */
+/* This makes the form look nice and organized */
+form {
+  display: flex; /* Use flexbox to organize things */
+  flex-direction: column; /* Stack everything on top of each other */
+  gap: 12px; /* Space between each form thing */
+  max-width: 500px; /* Don't make it too wide */
+  margin: auto; /* Put the form in the center */
+}
+
+/* Text boxes and buttons in my form */
+form input, form textarea, form button {
+  padding: 10px; /* Space inside so text isn't right on the edge */
+  border: 1px solid #ccc; /* Light gray border around everything */
+  border-radius: 6px; /* Round corners so it doesn't look boxy */
+}
+
+/* Submit button */
+form button {
+  background: #3498db; /* blue button that matches my header */
+  color: #ffffff; /* white text so you can read it */
+  border: none; /* Get rid of the ugly default border */
+  cursor: pointer; /* Make the mouse pointer change when you hover */
+  font-weight: bold; /* Make text thick */
+}
+
+/* What happens when you hover over the button */
+form button:hover {
+  background: #2980b9; /* darker blue so people know they can click it */
+}
+
+/* Bottom of my page */
+/* This is my footer */
+footer {
+  background: #333333; /* dark gray background */
+  color: #ffffff; /* white text so you can see it on the dark background */
+  text-align: center; /* Put text in the middle */
+  padding: 15px; /* Some space around the text */
+  margin-top: 20px; /* Space between my main content and footer */
+}
