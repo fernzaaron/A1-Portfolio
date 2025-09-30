@@ -1,4 +1,5 @@
 my portfolio website
+it has 4 pages: Home, About Me, Projects, and Contact. i used HTML5 and CSS3, and i hosted it on GitHub Pages.
 
 #viewport Sizes
 for the responsive design, I made three different CSS files:
@@ -15,14 +16,15 @@ I chose these breakpoints because:
 
 i picked these sizes because they are common screen sizes, and it made the site adjust better when i tested it on smaller and bigger screens.
 
+i also didnt use flexbox since the assignment does not allow it, i used inline-block and block elements along with widths and margins to adjust the layout.
+
+
 #gradients
 - i used a linear gradient in the header of all pages (blue to purple).  
 - i also used another linear gradient that goes straight down for the background of my projects page.  
 
 
-#color scheme
-i made a color scheme using adobe color
-(https://color.adobe.com/create).  
+#color scheme 
 here are the colors I used:
 - Blue: #3498db
 - Purple: #9b59b6
@@ -31,8 +33,25 @@ here are the colors I used:
 - White: #ffffff
 
 i chose these because i like how the blue and purple look together, and the gray/white makes it easier to read the text.
+#Testing
+
+- HTML and CSS validated with no major errors.  
+- Links checked with the W3C link checker.  
+- Ran accessibility check on WAVE and spell-checked my text.
 
 #External Code
 - I used some elements of the code from the recent tutorial #4 as inspiriation for my media quieries 
--
+- For my contact.html page, I refered to the lecture material regarding the form element etc.
+
+https://www.w3schools.com/html/html_youtube.asp
+-   I used W3Schools as a reference for the HTML video embedding (iframe element) for a youtube video instead of inputting a large video file into github LFS, and i also used form validation attributes like "required" and "pattern".
+
+-i made a color scheme using adobe color
+(https://color.adobe.com/create). 
+
+(https://developer.mozilla.org/)  
+  i referred to MDN for CSS gradient syntax (linear and angle gradients)
+
+
+
 
