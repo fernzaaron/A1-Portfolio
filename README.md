@@ -21,7 +21,7 @@ i also didnt use flexbox since the assignment does not allow it, i used inline-b
 
 #gradients
 - i used a linear gradient in the header of all pages (blue to purple).  
-- i also used another linear gradient that goes straight down for the background of my projects page.  
+- i also used another linear gradient that goes 135 deg froim the top right to the bottom right for the background of my projects page.  
 
 
 #color scheme 
@@ -39,12 +39,17 @@ i chose these because i like how the blue and purple look together, and the gray
 - Links checked with the W3C link checker.  
 - Ran accessibility check on WAVE and spell-checked my text.
 
+Note: the reason that I had to embed the video instead of inputting the video with html controlsis due to an issue with githubs large file policy, which doesn't allow files larger than 100 mb to be uploaded.
+
 #External Code
 - I used some elements of the code from the recent tutorial #4 as inspiriation for my media quieries 
 - For my contact.html page, I refered to the lecture material regarding the form element etc.
 
 https://www.w3schools.com/html/html_youtube.asp
 -   I used W3Schools as a reference for the HTML video embedding (iframe element) for a youtube video instead of inputting a large video file into github LFS, and i also used form validation attributes like "required" and "pattern".
+
+https://www.w3schools.com/html/html_forms.asp
+- I looked at examples of HTML forms and input validation using this cite as well.
 
 -i made a color scheme using adobe color
 (https://color.adobe.com/create). 
