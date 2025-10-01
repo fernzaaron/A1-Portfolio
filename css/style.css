@@ -54,7 +54,7 @@ nav ul {
 
 /* My main title */
 h1 {
-    float: center; /* Put my name in the center */
+    text-align: center; /* Put my name in the center */
 }
 
 /* Menu items */
