@@ -1,9 +1,10 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me</title>
+  <!-- Same CSS links as other pages for consistent styling across the site -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/mobile.css" media="(max-width:600px)">
   <link rel="stylesheet" href="css/tablet.css" media="(min-width:601px) and (max-width:900px)">
@@ -23,17 +24,20 @@
   </header>
 
   <main style="background: linear-gradient(135deg,#9b59b6,  #3498db);">
+    <!-- First section - who I am and my background -->
     <section>
         <h2 class="aboutmetitle">Who Am I?</h2>
+      <!-- My profile picture with inline styles to center it and add space below -->
       <img src="images/portfolioimg.jpg" alt="Aaron Fernandez portfolio photo" width="300" style="display:block; margin: 0 auto; margin-bottom: 20px;">
       <p>
         Hello! I'm Aaron Fernandez. I am a second-year student at Ontario Tech University in Technology Management. 
         As a dedicated student with a passion for cybersecurity and IT, I am constantly seeking 
         opportunities to expand my knowledge and skills in these rapidly evolving fields.
       </p>
+      <!-- Added more about me content, and I also added the strong element to bold the things that I know in order to make that the focal point -->
       <p>
         I have completed and self-taught the <strong>Harvard CS50</strong> course and am comfortable with 
-        <strong>Python</strong>. My focus is on staying ahead of industry trends, learning modern tools, 
+        <strong>Python and HTML/CSS</strong>. My focus is on staying ahead of industry trends, learning modern tools, 
         and building hands-on projects that demonstrate my curiosity and problem-solving skills.
       </p>
       <p>
@@ -42,8 +46,10 @@
       </p>
     </section>
 
+    <!-- Second section - intro video -->
     <section>
       <h2 class="videotitle">Intro Video</h2>
+<!-- Embedded YouTube video - the numbers in the URL are the specific video ID -->
 <iframe width="560" height="315" style="display:block; margin: 0 auto; margin-bottom: 20px;" 
         src="https://www.youtube.com/embed/Q_Z-r06nUjI">
 </iframe>

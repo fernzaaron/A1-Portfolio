@@ -1,29 +1,35 @@
-/* Laptop/Desktop (901px and up) */
+/* Laptop/Desktop CSS - styles for big screens like computers */
+/* This makes my website look good on laptops and desktop computers */
 
+/* Laptop/Desktop (901px and up) - this is for big screens */
 @media (min-width: 901px) {
   body {
-    font-size: 18px;
+    font-size: 18px; /* bigger text for desktop screens */
   }
   nav ul li {
-    display: inline-block;
-    margin: 0 15px;
+    display: inline-block; /* keep menu items in a row */
+    margin: 0 15px; /* more space between menu items on big screens */
   }
 }
 
+/* Basic desktop page setup */
 body {
-  font-size: 18px;
-  background: #f9f9f9;
+  font-size: 18px; /* bigger text size for desktop */
+  background: #f9f9f9; /* same light gray background */
 }
 
+/* Desktop header title */
 header h1 {
-  font-size: 28px;
+  font-size: 28px; /* big title for desktop screens */
 }
 
+/* Desktop navigation menu */
 nav ul li {
-  margin: 0 15px;
+  margin: 0 15px; /* lots of space between menu items */
 }
 
+/* Desktop main content area */
 main {
-  padding: 30px;
-  max-width: 1200px;
+  padding: 30px; /* lots of padding around content */
+  max-width: 1200px; /* don't let content get too wide or it's hard to read */
 }

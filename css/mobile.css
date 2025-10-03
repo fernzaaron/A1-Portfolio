@@ -1,31 +1,37 @@
-/* Mobile CSS */
+/* Mobile CSS - styles for phones and small screens */
+/* This makes my website look good on phones */
+
+/* Basic mobile page setup */
 body {
-  font-size: 14px;
-  padding: 0 10px;
-  background: #f9f9f9;
+  font-size: 14px; 
+  padding: 0 10px; /* little bit of space on sides so text doesn't touch edges */
+  background: #f9f9f9; 
 }
+
 
 header h1 {
-  font-size: 20px;
+  font-size: 20px; /* smaller title for mobile */
 }
+
 
 nav ul li {
-  display: block;
-  margin: 8px 0;
+  display: block; /* stack menu on top of each other instead of the side by side */
+  margin: 8px 0; /* space between menu items */
 }
+
 
 form {
-  width: 100%;
+  width: 100%; /* make forms take up full width on mobile */
 }
 
-/* Mobile: 481px and below */
+/* Mobile: 481px and below - this is for really small phones */
 @media (max-width: 481px) {
   body {
-    font-size: 14px;
+    font-size: 14px; /* keep text size small */
   }
   nav ul li {
-    display: block;
-    margin: 8px 0;
+    display: block; /* keep menu items stacked */
+    margin: 8px 0; /* space between menu items */
   }
 }
 

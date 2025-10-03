@@ -1,29 +1,34 @@
-/* Tablet */
+/* Tablet CSS - styles for medium sized screens like iPads */
+/* This makes my website look good on tablets */
+
+/* Basic tablet page setup */
 body {
-  font-size: 16px;
-  background: #f9f9f9;
+  font-size: 16px; 
+  background: #f9f9f9; 
 }
 
 header h1 {
-  font-size: 24px;
+  font-size: 24px; /* medium sized title for tablets */
 }
 
+/* Tablet navigation menu */
 nav ul li {
-  display: inline-block;
-  margin: 0 12px;
+  display: inline-block; /* put menu items side by side like on desktop */
+  margin: 0 12px; /* medium amount of space between menu items */
 }
 
+/* Tablet main content area */
 main {
-  padding: 25px;
+  padding: 25px; /* medium amount of padding around content */
 }
 
-/* Tablet: 482px to 901px */
+/* Tablet: 482px to 901px - this is the tablet size range */
 @media (min-width: 482px) and (max-width: 901px) {
   body {
-    font-size: 16px;
+    font-size: 16px; /* keep medium text size */
   }
   nav ul li {
-    display: inline-block;
-    margin: 0 12px;
+    display: inline-block; /* keep menu items in a row */
+    margin: 0 12px; /* keep medium spacing */
   }
 }

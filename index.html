@@ -1,37 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio | Home</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/mobile.css" media="(max-width:600px)">
-  <link rel="stylesheet" href="css/tablet.css" media="(min-width:601px) and (max-width:900px)">
-  <link rel="stylesheet" href="css/laptop.css" media="(min-width:901px)">
+<!DOCTYPE html> <!-- This tells the browser this is an HTML5 document -->
+<html lang="en"> <!-- The main container for my webpage, 'en' means it's in English -->
+<head> <!-- This section has info about my page that doesn't show on the actual page -->
+  <meta charset="UTF-8"> <!-- This makes sure special characters display correctly -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- This makes my site work well on phones and tablets -->
+  <title>My Portfolio | Home</title> <!-- This is what shows up in the browser tab -->
+  
+  <!-- These are my stylesheets that make my website look good -->
+  <link rel="stylesheet" href="css/style.css"> <!-- Main styles for all devices -->
+  <link rel="stylesheet" href="css/mobile.css" media="(max-width:600px)"> <!-- Only loads on phones -->
+  <link rel="stylesheet" href="css/tablet.css" media="(min-width:601px) and (max-width:900px)"> <!-- Only loads on tablets -->
+  <link rel="stylesheet" href="css/laptop.css" media="(min-width:901px)"> <!-- Only loads on big screens -->
 </head>
-<body style="background: linear-gradient(135deg,#9b59b6,  #3498db);">
+<!-- this is the main content area, in the linear gradient, i used degrees to create a smooth transition from purple to blue and make it reactive -->  
+<body style="background: linear-gradient(135deg,#9b59b6,  #3498db);"> <!-- The body contains everything visible on my page, with a cool purple-to-blue gradient background -->
+  
+  <!-- Header section - this appears at the top of every page -->
   <header>
-    <h1>Welcome to My Portfolio</h1>
+    <h1>Welcome to My Portfolio</h1> <!-- Main title that visitors see first -->
+    
+    <!-- Navigation menu - helps people move around my website -->
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact Me</a></li>
+      <ul><!-- Added navigation links to other pages for better site structure -->
+        <li><a href="index.html">Home</a></li> <!-- Link back to this page -->
+        <li><a href="about.html">About Me</a></li> <!-- Link to learn about me -->
+        <li><a href="projects.html">Projects</a></li> <!-- Link to see my work -->
+        <li><a href="contact.html">Contact Me</a></li> <!-- Link to get in touch -->
       </ul>
     </nav>
   </header>
 
-  <main>
-    <article>
-      <h2>Hello!</h2>
-      <p>This is my personal portfolio site where I showcase my projects, share a bit about myself, and provide ways to get in touch.</p>
+  <!-- Main content area - this is where the important stuff goes -->
+  <main><!-- Added a welcoming article to introduce visitors to the site -->
+    <article> <!-- Article tag is good for standalone content like blog posts or intro text -->
+      <h2>Hello!</h2> <!-- Secondary heading, smaller than the main h1 -->
+      <p>This is my personal portfolio site where I showcase my projects, share a bit about myself, and provide ways to get in touch.</p> <!-- Paragraph with welcome message -->
     </article>
   </main>
 
-  <footer>
-    <p>Contact: aaron.fernandez@ontariotechu.net</p>
-    <p>© 2025 Aaron Fernandez</p>
+  <!-- Footer section - this appears at the bottom of every page -->
+  <footer><!-- Added contact information and copyright notice in the footer for professionalism -->
+    <p>Contact: aaron.fernandez@ontariotechu.net</p> <!-- My email for people to reach me -->
+    <p>© 2025 Aaron Fernandez</p> <!-- Copyright notice to look professional -->
   </footer>
-</body>
-</html>
+</body> <!-- End of the body section -->
+</html> <!-- End of the whole HTML document -->
